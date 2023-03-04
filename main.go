@@ -1,7 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main() {
-	fmt.Println("你好")
+	a := "23"
+	b := 23
+	c, _ := strconv.Atoi(a)
+	fmt.Println(c, b)
 }
